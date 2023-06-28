@@ -1,0 +1,103 @@
+/*--------------------------------------------------------------
+# elecciones
+--------------------------------------------------------------*/
+
+.custom-select select {
+    appearance: none;
+    border-radius: 30px;
+    border-color: #144a7c;
+    border-width: 1.5px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.custom-select select option {
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-select button {
+    border-radius: 30px;
+}
+
+
+.custom-select button:hover {
+    border-radius: 30px;
+    background-color: #144a7c;
+    color: #fff;
+}
+
+.elecciones .icon-boxes {
+    justify-content: center; 
+}
+
+
+.elecciones .box-item .icon-box {
+    text-align: center;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.elecciones .box-item i {
+    font-size: 40px;
+    color: #144a7c;
+    margin-bottom: 30px;
+}
+
+.elecciones .box-item i:hover {
+    font-size: 40px;
+    color: #4b7fb0;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+}
+
+
+.elecciones .box-item h4 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.elecciones .box-item h4:hover {
+    box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+}
+
+
+.elecciones .box-item p {
+    font-size: 12px;
+    color: #777676;
+}
+
+.elecciones .box-item img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    overflow: clip;
+}
+
+.elecciones .box-item img:hover {
+    box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+}
+
+.elecciones .box-item p:hover {
+    box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+
+}
+
+.elecciones .box-item .content:hover {
+    box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+}
+
+.elecciones .box-item .content a:hover {
+    box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+}
+
+.elecciones .box-item :hover {
+    box-shadow: 0px 2px 15px rgb(67, 105, 132);
+}
